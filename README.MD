@@ -2,6 +2,11 @@
 <h1>Notaril support in Neo4J</h1>
 <!-- ---------------------------------------------------------------------- -->
 <hr>
+<p>
+Notaril support project in python&neo4j.<br/>
+Connect to a Neo4j database and execute a series of operations for control
+the status of the ineritance of the famili's goods.<br/>
+</p>
 <h2>Dataset</h2>
 <i>Neo_DB.txt</i> --> Dataset used for the notaril support. The dataset is 
                       created by the work team.<br/><br/>

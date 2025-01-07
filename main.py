@@ -3,8 +3,8 @@
                                   main.py
 -------------------------------------------------------------------------------
 Notaril support project in python&neo4j.
-Connect to a Neo4j database and execute a series of operation for control
-the status on the ineritance of goods of a family.
+Connect to a Neo4j database and execute a series of operations for control
+the status of the ineritance of the famili's goods.
 """
 from neo4j import GraphDatabase
 
