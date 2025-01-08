@@ -158,7 +158,7 @@ There is one type of relationship:<br/>
 <h2>Graph</h2><br/>
 
 An example of the graph created: <br/>
-<p><img src = "https://github.com/Bartyxx/NoSql/blob/main/Neo4J/img/completeGraph.png"/></p>
+<p><img src = "https://github.com/Bartyxx/Neo4JNotarilSupport/blob/main/img/completeGraph.png"/></p>
 <ul>
     <li><b>Blue nodes </b> : Person </li>
     <li><b>Red nodes  </b> : Goods  </li>
