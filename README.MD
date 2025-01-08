@@ -1,12 +1,12 @@
 <!-- ---------------------------------------------------------------------- -->
-<h1>Notarial support in Neo4J</h1>
+<h1>Notarial Support in Neo4j</h1>
 <!-- ---------------------------------------------------------------------- -->
-<div>
+<dir>
     <hr>
     <p>
-        Notarial support project in python&neo4j.<br/>
-        Connect to a Neo4j database and execute a series of operations for control
-        the status of the ineritance of the famili's goods.<br/>
+        Notarial support project in Python & Neo4j.<br/>
+        Connect to a Neo4j database and execute a series of operations to control
+        the status of the inheritance of the family's goods.<br/>
     </p>
     <hr>
     <h2>Dataset</h2>
@@ -16,17 +16,17 @@
     
     <h3>Element description</h3>
     <table>
-        <caption>The dataset is composed by five type of data</caption>
+        <caption>The dataset is composed of five types of data</caption>
         <tr>
            <td>p                 </td>
            <td>Person            </td>
         </tr>
         <tr><td>bi               </td>
-            <td>Immobiliar goods </td>
+            <td>Immovable goods  </td>
         </tr>
         <tr>
            <td>bm                </td>
-           <td>Mobiliar goods    </td>
+           <td>Movable goods     </td>
         </tr>
         <tr>
            <td>cc                </td>
@@ -34,37 +34,37 @@
         </tr>
         <tr>
            <td>s                 </td>
-           <td>Contry            </td>
+           <td>Country           </td>
         </tr>
     </table>
     
     <br/>
-</div>
+</dir>
 -------------------------------------------------------------------------------
-<h4>Person(p)</h4>
+<h4>Person (p)</h4>
 -------------------------------------------------------------------------------
-<div>
+<dir>
     <br/>
     
-    An example of person is:<br/>
+    An example of a person is:<br/>
     
-    <pre><i>CREATE(ROSIL01ISOLD09OL:p {name:"astolfo",
-           surname: "rossi",   
+    <pre><i>CREATE(ROSIL01ISOLD09OL:p {name: "Astolfo",
+           surname: "Rossi",   
            id: "ROSIL01ISOLD09OL",   
            status: "alive",
            age: 90 })</i></pre><br/>
     
     <p>
-       Where <i>ROSIL01ISOLD09OL</i> is the unique key that identify the person, is the same
-       of the id.
+       Where <i>ROSIL01ISOLD09OL</i> is the unique key that identifies the person, and it is the same
+       as the ID.
     </p>
     <br/>
     
     <table>
-        <caption>Person attribute</caption>
+        <caption>Person Attributes</caption>
         <tr>
             <td>name                              </td>
-            <td>Name of the persone               </td>
+            <td>Name of the person                </td>
         </tr>
         <tr>
             <td>surname                           </td>
@@ -85,31 +85,31 @@
     </table>
        
     <br/>
-</div>
+</dir>
 -------------------------------------------------------------------------------
-<h4>Immobiliar good(bi)</h4>
+<h4>Immovable Good (bi)</h4>
 -------------------------------------------------------------------------------
-<div>
+<dir>
     <br/>
     
-    <pre><i>CREATE(bi0:b {name: "house in the Alps",
+    <pre><i>CREATE(bi0:b {name: "House in the Alps",
                     value: 500000,
-    				code:'bi0'})</i></pre><br/>
+    				code: 'bi0'})</i></pre><br/>
     
     <p>
-        Where <i>bi0</i> id the unique identification of the immobiar good
+        Where <i>bi0</i> is the unique identification of the immovable good.
     </p>
     <br/>
     
     <table>
-        <caption>Immobiliar good attribute</caption>
+        <caption>Immovable Good Attributes</caption>
         <tr>
             <td>name                                   </td>
             <td>Name of the goods                      </td>
         </tr>
         <tr>
             <td>value                                  </td>
-            <td>Value in euro                          </td>
+            <td>Value in euros                         </td>
         </tr>
         <tr>
             <td>code                                   </td>
@@ -118,36 +118,36 @@
     </table>
     
     <br/>
-</div>
+</dir>
 -------------------------------------------------------------------------------
-<h4>Mobiliar good(bm)</h4>
+<h4>Movable Good (bm)</h4>
 -------------------------------------------------------------------------------
-<div>
+<dir>
     <br/>
     
     <pre>
-        <i>CREATE(bm0:b {name: "alfa giulia",
+        <i>CREATE(bm0:b {name: "Alfa Giulia",
                     value: 40000,
-    				code:'bm0'})
+    				code: 'bm0'})
     	</i>
     </pre>
     <br/>
     
     
     <p>
-        Where <i>bm0</i> id the unique identification of the mobiliar good
+        Where <i>bm0</i> is the unique identification of the movable good.
     </p>
     <br/>
     
     <table>
-        <caption>Immobiliar good attribute</caption>
+        <caption>Movable Good Attributes</caption>
         <tr>
             <td>name              </td>
             <td>Name of the goods </td>
         </tr>
         <tr>
-            <td>value         </td>
-            <td>Value in euro </td>
+            <td>value             </td>
+            <td>Value in euros    </td>
         </tr>
         <tr>
             <td>code                                   </td>
@@ -156,33 +156,33 @@
     </table>
     
     <br/>
-</div>
+</dir>
 -------------------------------------------------------------------------------
-<h4>Bank account(cc)</h4>
+<h4>Bank Account (cc)</h4>
 -------------------------------------------------------------------------------
-<div>
+<dir>
     <br/>
     
     
     <pre>
         <i>
-            CREATE(cc0:b {name: "bank account intesa",
+            CREATE(cc0:b {name: "Bank Account Intesa",
                     value: 4000,
-    				code:'cc0'})
+    				code: 'cc0'})
     	</i>
     </pre>
     <br/>
     
     <p>
-        Where <i>cc0</i> id the unique identification of the bank account.
+        Where <i>cc0</i> is the unique identification of the bank account.
     </p>
     <br/>
     
     <table>
-        <caption>Immobiliar good attribute</caption>
+        <caption>Bank Account Attributes</caption>
         <tr>
             <td>name                 </td>
-            <td>Name of bank account </td>
+            <td>Name of the bank account </td>
         </tr>
         <tr>
             <td>value                     </td>
@@ -195,102 +195,24 @@
     </table>
     
     <br/>
-</div>
+</dir>
 -------------------------------------------------------------------------------
-<h4>Country(s)</h4>
+<h4>Country (s)</h4>
 -------------------------------------------------------------------------------
-<div>
+<dir>
     <br/>
     
     <p>
-         There is one country, if a person die and don't have any parents, siblings or
-         sons the goods of the person became property of the country.
+         There is one country. If a person dies and does not have any parents, siblings, or
+         children, the goods of the person become the property of the country.
     </p>
     <br/>
     
     <pre>
         <i>
-            CREATE(s:country {name:"italy"})
+            CREATE(s:country {name: "Italy"})
         </i>
     </pre>
     <br/>
-    
-    <!-- ---------------------------------------------------------------------- -->
-    <h3>Relationship description</h3><br/>
-    -------------------------------------------------------------------------------
-    <h4>Person to person</h4>
-    -------------------------------------------------------------------------------
-    <br/>
-    
-    <p>
-        There are two type of relationship:
-    </p>
-       
-    
-    <br/>
-    <ul>
-        <li>
-            <b>Generate</b> : Relationship between parents and son/daughter
-        </li>
-    </ul>
-    
-    <pre>
-        <i>
-            CREATE(ROSIL01ISOLD09OL)-[g1:Generate {value: 1}]->(ROSIL11ISOLD09OL)
-        </i>
-    </pre>
-    
-    <br/>
-    
-    <ul>
-        <li>
-            <b>MarriedWith</b> : Marriage between two person
-        </li>
-    </ul>
-    
-    <pre><i>CREATE(ROSIL11ISOLD09OL)-[s1:MarriedWith {value: 0}]->(ROSILA1ISOLD09OL)</i></pre><br/>
-    
-    
-    <br/>
-</div>
--------------------------------------------------------------------------------
-<h4>Person to goods</h4><br/>
--------------------------------------------------------------------------------
-<div>
-    <br/>
-    
-    There is one type of relationship:<br/>
-    <ul>
-        <li>
-            <b>Own</b> : The goods is own by a person, the value field is the % of
-                          the good own by the person.
-        </li>
-    </ul>
-    
-    <pre><i>CREATE(ROSIL01ISOLD09OL)-[:Owns {value: 100.00}]->(bi0)</i></pre><br/>
-    
-    <br/>
-    <br/>
-    <hr>
-    <h2>Graph</h2><br/>
-    
-    <p>
-        An example of the graph created:
-    <p>
-    
-    <br/>
-    <p><img src = "https://github.com/Bartyxx/NoSql/blob/main/Neo4J/img/completeGraph.png"/></p>
-    <ul>
-        <li>
-            <b>Blue nodes </b> : Person 
-        </li>
-        <li>
-            <b>Red nodes  </b> : Goods  
-        </li>
-        <li>
-            <b>Green nodes</b> : Country
-        </li>
-    </ul>
-    
-    <br/>
-</div>
+</dir>
+<!-- ---------------------------------------------------------------------- -->
