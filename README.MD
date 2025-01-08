@@ -1,16 +1,16 @@
 <!-- ---------------------------------------------------------------------- -->
-<h1>Notaril support in Neo4J</h1>
+<h1>Notarial support in Neo4J</h1>
 <!-- ---------------------------------------------------------------------- -->
-<dir>
+<div>
     <hr>
     <p>
-        Notaril support project in python&neo4j.<br/>
+        Notarial support project in python&neo4j.<br/>
         Connect to a Neo4j database and execute a series of operations for control
         the status of the ineritance of the famili's goods.<br/>
     </p>
     <hr>
     <h2>Dataset</h2>
-    <i>Neo_DB.txt</i> --> Dataset used for the notaril support. The dataset is 
+    <i>Neo_DB.txt</i> --> Dataset used for the notarial support. The dataset is 
                           created by the work team.<br/><br/>
     
     
@@ -39,11 +39,11 @@
     </table>
     
     <br/>
-</dir>
+</div>
 -------------------------------------------------------------------------------
 <h4>Person(p)</h4>
 -------------------------------------------------------------------------------
-<dir>
+<div>
     <br/>
     
     An example of person is:<br/>
@@ -85,11 +85,11 @@
     </table>
        
     <br/>
-</dir>
+</div>
 -------------------------------------------------------------------------------
 <h4>Immobiliar good(bi)</h4>
 -------------------------------------------------------------------------------
-<dir>
+<div>
     <br/>
     
     <pre><i>CREATE(bi0:b {name: "house in the Alps",
@@ -118,11 +118,11 @@
     </table>
     
     <br/>
-</dir>
+</div>
 -------------------------------------------------------------------------------
 <h4>Mobiliar good(bm)</h4>
 -------------------------------------------------------------------------------
-<dir>
+<div>
     <br/>
     
     <pre>
@@ -156,11 +156,11 @@
     </table>
     
     <br/>
-</dir>
+</div>
 -------------------------------------------------------------------------------
 <h4>Bank account(cc)</h4>
 -------------------------------------------------------------------------------
-<dir>
+<div>
     <br/>
     
     
@@ -195,11 +195,11 @@
     </table>
     
     <br/>
-</dir>
+</div>
 -------------------------------------------------------------------------------
 <h4>Country(s)</h4>
 -------------------------------------------------------------------------------
-<dir>
+<div>
     <br/>
     
     <p>
@@ -252,11 +252,11 @@
     
     
     <br/>
-</dir>
+</div>
 -------------------------------------------------------------------------------
 <h4>Person to goods</h4><br/>
 -------------------------------------------------------------------------------
-<dir>
+<div>
     <br/>
     
     There is one type of relationship:<br/>
@@ -293,4 +293,4 @@
     </ul>
     
     <br/>
-</dir>
+</div>
