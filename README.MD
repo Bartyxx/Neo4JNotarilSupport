@@ -2,28 +2,28 @@
 <h1>Notaril support in Neo4J</h1>
 <!-- ---------------------------------------------------------------------- -->
 <div>
-    <hr>
-    <p>
-        Notaril support project in python&neo4j.<br/>
-        Connect to a Neo4j database and execute a series of operations for control
-        the status of the ineritance of the famili's goods.<br/>
-    </p>
-    <hr>
-    <h2>Dataset</h2>
-    <i>Neo_DB.txt</i> --> Dataset used for the notaril support. The dataset is 
-                          created by the work team.<br/><br/>
+   <hr>
+   <p>
+       Notaril support project in python&neo4j.<br/>
+       Connect to a Neo4j database and execute a series of operations for control
+       the status of the ineritance of the famili's goods.<br/>
+   </p>
+   <hr>
+   <h2>Dataset</h2>
+   <i>Neo_DB.txt</i> --> Dataset used for the notaril support. The dataset is 
+                         created by the work team.<br/><br/>
 
 
-    <h3>Element description</h3>
-    <table>
-        <caption>The dataset is composed by five type of data</caption>
-            <tr><td>p        </td><td>Person            </td></tr>
-            <tr><td>bi       </td><td>Immobiliar goods </td></tr>
-            <tr><td>bm       </td><td>Mobiliar goods    </td></tr>
-            <tr><td>cc       </td><td>Bank Account      </td></tr>
-            <tr><td>s        </td><td>Contry            </td></tr>
-    </table>
-    <br/>
+   <h3>Element description</h3>
+   <table>
+       <caption>The dataset is composed by five type of data</caption>
+           <tr><td>p        </td><td>Person            </td></tr>
+           <tr><td>bi       </td><td>Immobiliar goods </td></tr>
+           <tr><td>bm       </td><td>Mobiliar goods    </td></tr>
+           <tr><td>cc       </td><td>Bank Account      </td></tr>
+           <tr><td>s        </td><td>Contry            </td></tr>
+   </table>
+   <br/>
     
 </div>
 -------------------------------------------------------------------------------
