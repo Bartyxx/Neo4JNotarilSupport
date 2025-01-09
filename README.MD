@@ -140,47 +140,49 @@
 <h4>Person to person</h4>
 -------------------------------------------------------------------------------
 <div>
-    <br/>
+   <br/>
     
-    <p>There are two type of relationship:<br/></p>
-    <ul>
-        <li><b>Generate</b> : Relationship between parents and son/daughter</li>
-    </ul>
+   <p>There are two type of relationship:<br/></p>
+   <ul>
+       <li><b>Generate</b> : Relationship between parents and son/daughter</li>
+   </ul>
     
-    <pre><i>CREATE(ROSIL01ISOLD09OL)-[g1:Generate {value: 1}]->(ROSIL11ISOLD09OL)</i></pre><br/>
-    <ul>
-        <li><b>MarriedWith</b> : Marriage between two person</li>
-    </ul>
+   <pre><i>CREATE(ROSIL01ISOLD09OL)-[g1:Generate {value: 1}]->(ROSIL11ISOLD09OL)</i></pre><br/>
+   <ul>
+       <li><b>MarriedWith</b> : Marriage between two person</li>
+   </ul>
     
-    <pre><i>CREATE(ROSIL11ISOLD09OL)-[s1:MarriedWith {value: 0}]->(ROSILA1ISOLD09OL)</i></pre><br/>
+   <pre><i>CREATE(ROSIL11ISOLD09OL)-[s1:MarriedWith {value: 0}]->(ROSILA1ISOLD09OL)</i></pre><br/>
     
     
-    <br/>
+   <br/>
 </div>
 -------------------------------------------------------------------------------
 <h4>Person to goods</h4><br/>
 -------------------------------------------------------------------------------
-<br/>
-
-There is one type of relationship:<br/>
-<ul>
-    <li><b>Own</b> : The goods is own by a person, the value field is the % of
-                      the good own by the person.</li>
-</ul>
-
-<pre><i>CREATE(ROSIL01ISOLD09OL)-[:Owns {value: 100.00}]->(bi0)</i></pre><br/>
-
-<br/>
-<br/>
-<hr>
-<h2>Graph</h2><br/>
-
-An example of the graph created: <br/>
-<p><img src = "https://github.com/Bartyxx/Neo4JNotarilSupport/blob/main/img/completeGraph.png"/></p>
-<ul>
-    <li><b>Blue nodes </b> : Person </li>
-    <li><b>Red nodes  </b> : Goods  </li>
-    <li><b>Green nodes</b> : Country</li>
-</ul>
-
-<br/>
+<div>
+   <br/>
+    
+   <p>There is one type of relationship:<br/></p>
+   <ul>
+       <li><b>Own</b> : The goods is own by a person, the value field is the % of
+                          the good own by the person.</li>
+   </ul>
+    
+   <pre><i>CREATE(ROSIL01ISOLD09OL)-[:Owns {value: 100.00}]->(bi0)</i></pre><br/>
+    
+   <br/>
+   <br/>
+   <hr>
+   <h2>Graph</h2><br/>
+   
+   <p>An example of the graph created: <br/></p>
+   <p><img src = "https://github.com/Bartyxx/Neo4JNotarilSupport/blob/main/img/completeGraph.png"/></p>
+   <ul>
+       <li><b>Blue nodes </b> : Person </li>
+       <li><b>Red nodes  </b> : Goods  </li>
+       <li><b>Green nodes</b> : Country</li>
+   </ul>
+    
+   <br/>
+</div>
