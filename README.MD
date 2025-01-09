@@ -9,7 +9,7 @@
        the status of the ineritance of the famili's goods.<br/>
    </p>
     <div align="center">
-        <img src = "https://github.com/Bartyxx/Neo4JNotarilSupport/blob/main/img/logo.png"/>
+        <img src = "https://github.com/Bartyxx/Neo4JNotarilSupport/blob/main/img/new_logo.png"/>
     </div>
 </div>
 
