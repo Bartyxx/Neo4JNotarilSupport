@@ -17,11 +17,11 @@
     <h3>Element description</h3>
     <table>
         <caption>The dataset is composed by five type of data</caption>
-        <tr><td>p        </td><td>Person            </td></tr>
-        <tr><td>bi       </td><td>Immobiliar goods </td></tr>
-        <tr><td>bm       </td><td>Mobiliar goods    </td></tr>
-        <tr><td>cc       </td><td>Bank Account      </td></tr>
-        <tr><td>s        </td><td>Contry            </td></tr>
+            <tr><td>p        </td><td>Person            </td></tr>
+            <tr><td>bi       </td><td>Immobiliar goods </td></tr>
+            <tr><td>bm       </td><td>Mobiliar goods    </td></tr>
+            <tr><td>cc       </td><td>Bank Account      </td></tr>
+            <tr><td>s        </td><td>Contry            </td></tr>
     </table>
     <br/>
     
