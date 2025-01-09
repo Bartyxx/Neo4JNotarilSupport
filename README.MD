@@ -102,53 +102,61 @@
 -------------------------------------------------------------------------------
 <h4>Bank account(cc)</h4>
 -------------------------------------------------------------------------------
-<br/>
-
-
-<pre><i>CREATE(cc0:b {name: "bank account intesa",
-                value: 4000,
-				code:'cc0'})</i></pre><br/>
-
-Where <i>cc0</i> id the unique identification of the bank account<br/>
-
-<table>
-<caption>Immobiliar good attribute</caption>
-<tr><td>name     </td><td>Name of bank account                   </td></tr>
-<tr><td>value    </td><td>Money in the bank account              </td></tr>
-<tr><td>code     </td><td>Same code as the unique identification </td></tr>
-</table>
-
-<br/>
+<div>
+   <br/>
+    
+    
+   <pre><i>CREATE(cc0:b {name: "bank account intesa",
+                    value: 4000,
+    				code:'cc0'})</i></pre><br/>
+    
+   <p>Where <i>cc0</i> id the unique identification of the bank account<br/></p>
+    
+   <table>
+       <caption>Immobiliar good attribute</caption>
+           <tr><td>name     </td><td>Name of bank account                   </td></tr>
+           <tr><td>value    </td><td>Money in the bank account              </td></tr>
+           <tr><td>code     </td><td>Same code as the unique identification </td></tr>
+   </table>
+    
+   <br/>
+</div>
 -------------------------------------------------------------------------------
 <h4>Country(s)</h4>
 -------------------------------------------------------------------------------
-<br/>
-
-There is one country, if a person die and don't have any parents, siblings or
-sons the goods of the person became property of the country.<br/>
-<pre><i>CREATE(s:country {name:"italy"})</i></pre><br/>
-
+<div>
+   <br/>
+   
+   <p>
+       There is one country, if a person die and don't have any parents, siblings or
+       sons the goods of the person became property of the country.<br/>
+   </p>
+   
+   <pre><i>CREATE(s:country {name:"italy"})</i></pre><br/>
+</div>
 <!-- ---------------------------------------------------------------------- -->
 <h3>Relationship description</h3><br/>
 -------------------------------------------------------------------------------
 <h4>Person to person</h4>
 -------------------------------------------------------------------------------
-<br/>
-
-There are two type of relationship:<br/>
-<ul>
-    <li><b>Generate</b> : Relationship between parents and son/daughter</li>
-</ul>
-
-<pre><i>CREATE(ROSIL01ISOLD09OL)-[g1:Generate {value: 1}]->(ROSIL11ISOLD09OL)</i></pre><br/>
-<ul>
-    <li><b>MarriedWith</b> : Marriage between two person</li>
-</ul>
-
-<pre><i>CREATE(ROSIL11ISOLD09OL)-[s1:MarriedWith {value: 0}]->(ROSILA1ISOLD09OL)</i></pre><br/>
-
-
-<br/>
+<div>
+    <br/>
+    
+    <p>There are two type of relationship:<br/></p>
+    <ul>
+        <li><b>Generate</b> : Relationship between parents and son/daughter</li>
+    </ul>
+    
+    <pre><i>CREATE(ROSIL01ISOLD09OL)-[g1:Generate {value: 1}]->(ROSIL11ISOLD09OL)</i></pre><br/>
+    <ul>
+        <li><b>MarriedWith</b> : Marriage between two person</li>
+    </ul>
+    
+    <pre><i>CREATE(ROSIL11ISOLD09OL)-[s1:MarriedWith {value: 0}]->(ROSILA1ISOLD09OL)</i></pre><br/>
+    
+    
+    <br/>
+</div>
 -------------------------------------------------------------------------------
 <h4>Person to goods</h4><br/>
 -------------------------------------------------------------------------------
