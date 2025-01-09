@@ -80,23 +80,25 @@
 -------------------------------------------------------------------------------
 <h4>Mobiliar good(bm)</h4>
 -------------------------------------------------------------------------------
-<br/>
-
-<pre><i>CREATE(bm0:b {name: "alfa giulia",
-                value: 40000,
-				code:'bm0'})</i></pre><br/>
-
-
-Where <i>bm0</i> id the unique identification of the mobiliar good<br/>
-
-<table>
-<caption>Immobiliar good attribute</caption>
-<tr><td>name     </td><td>Name of the goods                      </td></tr>
-<tr><td>value    </td><td>Value in euro                          </td></tr>
-<tr><td>code     </td><td>Same code as the unique identification </td></tr>
-</table>
-
-<br/>
+<div>
+   <br/>
+    
+   <pre><i>CREATE(bm0:b {name: "alfa giulia",
+                    value: 40000,
+    				code:'bm0'})</i></pre><br/>
+    
+    
+   <p>Where <i>bm0</i> id the unique identification of the mobiliar good<br/></p>
+    
+   <table>
+       <caption>Immobiliar good attribute</caption>
+           <tr><td>name     </td><td>Name of the goods                      </td></tr>
+           <tr><td>value    </td><td>Value in euro                          </td></tr>
+           <tr><td>code     </td><td>Same code as the unique identification </td></tr>
+   </table>
+    
+   <br/>
+</div>
 -------------------------------------------------------------------------------
 <h4>Bank account(cc)</h4>
 -------------------------------------------------------------------------------
