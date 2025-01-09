@@ -32,27 +32,27 @@
 <div>
    <br/>
  
-    <p>An example of person is:</p>
-    <br/>
+   <p>An example of person is:</p>
+   <br/>
 
 <pre><i>CREATE(ROSIL01ISOLD09OL:p {name:"astolfo",
        surname: "rossi",   
        id: "ROSIL01ISOLD09OL",   
        status: "alive",
        age: 90 })</i></pre><br/>
-    <p>
-        Where <i>ROSIL01ISOLD09OL</i> is the unique key that identify the 
-        person, is the same of the id.<br/>
-    </p>
+   <p>
+       Where <i>ROSIL01ISOLD09OL</i> is the unique key that identify the 
+       person, is the same of the id.<br/>
+   </p>
     
-    <table>
-        <caption>Person attribute</caption>
-        <tr><td>name     </td><td>Name of the persone               </td></tr>
-        <tr><td>surname  </td><td>Surname of the person             </td></tr>
-        <tr><td>id       </td><td>Identification code of the person </td></tr>
-        <tr><td>status   </td><td>Alive or deceased                 </td></tr>
-        <tr><td>age      </td><td>Age                               </td></tr>
-    </table>
+   <table>
+       <caption>Person attribute</caption>
+           <tr><td>name     </td><td>Name of the persone               </td></tr>
+           <tr><td>surname  </td><td>Surname of the person             </td></tr>
+           <tr><td>id       </td><td>Identification code of the person </td></tr>
+           <tr><td>status   </td><td>Alive or deceased                 </td></tr>
+           <tr><td>age      </td><td>Age                               </td></tr>
+   </table>
    
 <br/>
 </div>
@@ -60,22 +60,22 @@
 <h4>Immobiliar good(bi)</h4>
 -------------------------------------------------------------------------------
 <div>
-    <br/>
+   <br/>
 
 <pre><i>CREATE(bi0:b {name: "house in the Alps",
                 value: 500000,
 				code:'bi0'})</i></pre><br/>
 
-Where <i>bi0</i> id the unique identification of the immobiar good<br/>
+   <p>Where <i>bi0</i> id the unique identification of the immobiar good<br/></p>
 
-    <table>
-        <caption>Immobiliar good attribute</caption>
-            <tr><td>name     </td><td>Name of the goods                      </td></tr>
-            <tr><td>value    </td><td>Value in euro                          </td></tr>
-            <tr><td>code     </td><td>Same code as the unique identification </td></tr>
-    </table>
+   <table>
+       <caption>Immobiliar good attribute</caption>
+           <tr><td>name     </td><td>Name of the goods                      </td></tr>
+           <tr><td>value    </td><td>Value in euro                          </td></tr>
+           <tr><td>code     </td><td>Same code as the unique identification </td></tr>
+   </table>
 
-    <br/>
+   <br/>
 </div>
 -------------------------------------------------------------------------------
 <h4>Mobiliar good(bm)</h4>
