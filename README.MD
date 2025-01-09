@@ -1,13 +1,19 @@
 <!-- ---------------------------------------------------------------------- -->
-<h1>Notaril support in Neo4J</h1>
+<h1 align="center">Notaril support in Neo4J</h1>
 <!-- ---------------------------------------------------------------------- -->
 <div>
    <hr>
-   <p>
+   <p align="center" dir="auto">
        Notaril support project in python&neo4j.<br/>
        Connect to a Neo4j database and execute a series of operations for control
        the status of the ineritance of the famili's goods.<br/>
    </p>
+    <div align="center">
+        <img src = "https://github.com/Bartyxx/Neo4JNotarilSupport/blob/main/img/logo.png"/>
+    </div>
+</div>
+
+<div> 
    <hr>
    <h2>Dataset</h2>
    <i>Neo_DB.txt</i> --> Dataset used for the notaril support. The dataset is 
